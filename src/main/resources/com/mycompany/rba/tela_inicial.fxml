@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="328.0" prefWidth="576.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.rba.TelaInicialController">
+   <children>
+      <Label prefHeight="41.0" prefWidth="198.0" text="Bem vindo ao RBA">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label prefHeight="30.0" prefWidth="317.0" text="Automatize suas tarefas escolares e facilite seu dia a dia." />
+      <CheckBox mnemonicParsing="false" prefHeight="28.0" prefWidth="196.0" text="Aceitar os termos de contrato?" />
+      <Button fx:id="primaryButton" onAction="#switchToSecondary" prefHeight="56.0" prefWidth="138.0" text="Vamos Lá?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
