@@ -1,0 +1,14 @@
+1. Interface de Entrada Usuário (Pede diretório padrão)
+2. Renomear Arquivos
+3. Unir Alunos com frequência abaixo de 80% em uma tabela
+4. Criar modelo de convocação para cada aluno docx e pdf
+
+Interface Grafica-
+1. Botões: Pesquisar, Renomear, Gerar Convocacao, Tudo
+2. Input: Diretorio Padrão, Diretório dos Dados,
+
+RESOLVER
+Unir as GUI em DEFs
+Criar Def para chamar cada robo na GUI
+Configurar os botões para chamar robo pela Def
+Tirar Loop de Janelas
