@@ -28,7 +28,7 @@ for _,linha in dados.iterrows():
 
     aluno = {
         'ALUNO': nome.upper(),
-        # 'RA': numero.upper(),
+        'RA': numero,
         'SERIE': serie.upper()
     }
 
